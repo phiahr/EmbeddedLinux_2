@@ -1,0 +1,1 @@
+cmd_/home/se5/Zedboard/LAB2/myleds.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/se5/Zedboard/LAB2/myleds.ko /home/se5/Zedboard/LAB2/myleds.o /home/se5/Zedboard/LAB2/myleds.mod.o ;  true
